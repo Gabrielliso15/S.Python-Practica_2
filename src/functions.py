@@ -27,3 +27,13 @@ def verificar_nombre(nombre):
         return False
     else:
         return True
+    
+# Ejercicio 5
+
+def cat_vel(velocidad):
+    if velocidad < 200:
+        return 1
+    elif velocidad >= 200 and velocidad <= 500:
+        return 2
+    elif velocidad > 500:
+        return 3
