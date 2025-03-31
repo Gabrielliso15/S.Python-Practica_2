@@ -12,3 +12,18 @@ def Cumple3 (linea,clave):
     if clave in linea:
         return True
     return False
+
+
+# Ejercicio 4
+
+def verificar_nombre(nombre):
+    if len(nombre) < 5:
+        return False
+    if not any(i.isdigit() for i in nombre):
+        return False
+    if not any(i.isupper() for i in nombre):
+        return False
+    if not any(i.isalnum() for i in nombre):
+        return False
+    else:
+        return True
