@@ -37,3 +37,21 @@ def cat_vel(velocidad):
         return 2
     elif velocidad > 500:
         return 3
+
+# Ejercicio 7
+import random
+import datetime
+import string
+
+def cumple_nombre (nombre):
+    if len(nombre) > 15 or " " in nombre or nombre[0] == " ":
+        return False
+    return True
+
+def codigo_descuento (nombre):
+    fecha = datetime.date.today()
+    fecha = str(fecha).replace("-", "")
+    cod1 = f"{nombre.upper()}-{fecha}-"   
+    cod2= random.choices(string.ascii_uppercase + string.digits, k=30 - len(cod1))
+    codfinal = cod1 + "".join(cod2)
+    return codfinal
