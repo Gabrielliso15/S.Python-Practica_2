@@ -13,3 +13,7 @@ Gabriel Nicolas Liso 19599/4
 
 Instalar dependencias desde git bash : 
      pip install -r requirements 
+
+
+3. git clone [(https://github.com/Gabrielliso15/S.Python-Practica_2.git)]
+cd [S.Python-Practica_2]
