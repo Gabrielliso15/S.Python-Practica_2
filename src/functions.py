@@ -86,3 +86,19 @@ def Eliminar_Nulos(nombre):
     if nombre.strip() == "" or nombre is None:
         return True
     return False
+
+
+# Ejercicio 10
+
+def calcular_puntos(stats):
+    """Calcula los puntos de un jugador basado en kills, assists y deaths."""
+    return stats["kills"] * 3 + stats["assists"] * 1 - stats["deaths"]
+
+
+def Buscar_max (puntajes):
+    maximo = 0
+    for jugador, puntos in puntajes.items():
+        if puntos > maximo:
+            maximo = puntos
+            max_jugador = jugador
+    return max_jugador, maximo
