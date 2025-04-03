@@ -66,3 +66,23 @@ def son_anagramas (s1, s2):
         return True
     else:
         return False
+
+
+
+# Ejercicio 9
+
+def Eliminar_Espacios(nombre):
+    return " ".join(nombre.split())
+
+def Primera_Mayuscula(nombre):
+    return nombre.title()
+
+def Duplicado(nombre, lista):
+        if nombre in lista:
+            return True
+        return False
+
+def Eliminar_Nulos(nombre): 
+    if nombre.strip() == "" or nombre is None:
+        return True
+    return False
