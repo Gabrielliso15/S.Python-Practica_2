@@ -8,12 +8,13 @@ Gabriel Nicolas Liso 19599/4
 - Jupyter Notebook
 
 ### Instalación
-1. Instalar Python desde [python.org](https://www.python.org/).
-2. Instalar Jupyter Notebook:
+1. git clone [(https://github.com/Gabrielliso15/S.Python-Practica_2.git)] 
+ - cd [S.Python-Practica_2]
+
+2. Instalar Python desde [python.org](https://www.python.org/).
+
+3. Instalar Jupyter Notebook:
 
 Instalar dependencias desde git bash : 
 - pip install -r requirements 
 
-
-3. git clone [(https://github.com/Gabrielliso15/S.Python-Practica_2.git)] 
- - cd [S.Python-Practica_2]

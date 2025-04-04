@@ -101,4 +101,4 @@ def Buscar_max (puntajes):
         if puntos > maximo:
             maximo = puntos
             max_jugador = jugador
-    return max_jugador, maximo
+    return max_jugador
